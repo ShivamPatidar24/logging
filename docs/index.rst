@@ -36,6 +36,7 @@ Requirements
    :safety: QM
    :security: YES
    :reqtype: Functional
+   :valid_from: v1.0.0
    :rationale: Ensure documentation builds are possible for all modules
 
 
@@ -98,4 +99,15 @@ Components
    :maxdepth: 1
    :glob:
 
-   components/**/index
+   components/datarouter/index.rst
+   components/mw/log/index.rst
+
+
+Requirements
+------------
+
+.. toctree::
+   :maxdepth: 1
+   :glob:
+
+   logging/stats.rst
